@@ -1,0 +1,340 @@
+{
+  "result": "true",
+  "value": {
+    "dateRange": {
+      "start": 1688169600000,
+      "end": 1725062400000
+    },
+    "filters": ["subjectId", "chapterId", "topicId", "taskType"],
+    "bar1": {
+      "data": {
+        "type": "bar",
+        "keys": {
+          "x": "name",
+          "label": "name",
+          "value": ["value"]
+        },
+        "names": {
+          "value": "Score (%)"
+        },
+        "labels": {
+          "format": "%"
+        },
+        "json": [
+          {
+            "name": "Jul-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Aug-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Sep-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Oct-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Nov-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Dec-23",
+            "value": 0.0,
+            "onclick": {
+              "type": "request",
+              "data": {
+                "type": "barClickPerformanceMonth",
+                "reportType": "performanceByDayTeacher",
+                "taskType": "assignment",
+                "userId": 104539,
+                "roleId": 4,
+                "subjectId": 287,
+                "chapterId": 0,
+                "topicId": 0,
+                "dateFrom": 1701388800000,
+                "dateTo": 1704067199000
+              }
+            }
+          },
+          {
+            "name": "Jan-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Feb-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Mar-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Apr-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "May-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Jun-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Jul-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Aug-24",
+            "value": null,
+            "onclick": null
+          }
+        ]
+      },
+      "axis": {
+        "x": {
+          "label": {
+            "text": "Month"
+          },
+          "type": "category"
+        },
+        "y": {
+          "label": {
+            "text": "Score(%)"
+          },
+          "tick": {
+            "format": "%"
+          },
+          "max": 1,
+          "min": 0
+        }
+      },
+      "grid": {
+        "y": {
+          "show": true
+        }
+      },
+      "title": {
+        "text": "Performance Report By Month for TPV STUDENT A 1"
+      },
+      "legend": {
+        "show": false
+      },
+      "regions": [],
+      "threshold": {}
+    },
+    "pie1": {
+      "data": {
+        "type": "equalDonut",
+        "keys": {
+          "x": "name",
+          "label": "name",
+          "value": ["value"]
+        },
+        "names": {
+          "value": "Score (%)"
+        },
+        "labels": {
+          "format": "%"
+        },
+        "json": [
+          {
+            "name": "Jul-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Aug-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Sep-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Oct-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Nov-23",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Dec-23",
+            "value": 0.0,
+            "onclick": {
+              "type": "request",
+              "data": {
+                "type": "donutClickPerformanceMonth",
+                "reportType": "performanceByMonthTeacher",
+                "taskType": "assignment",
+                "userId": 104539,
+                "roleId": 4,
+                "subjectId": 287,
+                "chapterId": 0,
+                "topicId": 0,
+                "dateFrom": 1688169600000,
+                "dateTo": 1725062400000
+              }
+            }
+          },
+          {
+            "name": "Jan-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Feb-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Mar-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Apr-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "May-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Jun-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Jul-24",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Aug-24",
+            "value": null,
+            "onclick": null
+          }
+        ],
+        "selected": {
+          "index": 0
+        }
+      },
+      "donut": {
+        "title": "2023-2024"
+      },
+      "legend": {
+        "show": false
+      },
+      "threshold": {}
+    },
+    "pie2": {
+      "data": {
+        "type": "equalDonut",
+        "keys": {
+          "x": "name",
+          "label": "name",
+          "value": ["value"]
+        },
+        "names": {
+          "value": "Score (%)"
+        },
+        "labels": {
+          "format": "%"
+        },
+        "json": [
+          {
+            "name": "Week 1",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Week 2",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Week 3",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Week 4",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Week 5",
+            "value": null,
+            "onclick": null
+          },
+          {
+            "name": "Week 6",
+            "value": null,
+            "onclick": null
+          }
+        ],
+        "selected": {
+          "index": 0
+        }
+      },
+      "donut": {
+        "title": "Jul-23"
+      },
+      "legend": {
+        "show": false
+      },
+      "threshold": {}
+    },
+    "pie3": {
+      "data": {
+        "type": "equalDonut",
+        "keys": {
+          "x": "name",
+          "label": "name",
+          "value": ["value"]
+        },
+        "names": {
+          "value": "Score (%)"
+        },
+        "labels": {
+          "format": "%"
+        },
+        "json": [],
+        "selected": {
+          "index": null
+        }
+      },
+      "donut": {
+        "title": "Week 1"
+      },
+      "legend": {
+        "show": false
+      },
+      "threshold": {}
+    }
+  }
+}
